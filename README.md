@@ -11,10 +11,10 @@
 | `⌥ + ]` | ’ |
 | `⇧ + ⌥ + [` | “ |
 | `⇧ + ⌥ + ]` | ” |
-| `↖ Home`<br> (`fn + ←`)  | moveToBeginningOfLine |
-| `↘ End`<br>  (`fn + →`) | moveToEndOfLine |
-| `⇧ + ↖ Home`<br> (`⇧ + fn + ←`) | moveToBeginningOfLineAndModifySelection |
-| `⇧ + ↘ End`<br> (`⇧ + fn + →`) | moveToEndOfLineAndModifySelection |
+| `↖ Home`<br> (`fn + ←`)  | move cursor to beginning of line |
+| `↘ End`<br>  (`fn + →`) | move cursor to end of line |
+| `⇧ + ↖ Home`<br> (`⇧ + fn + ←`) | move cursor to beginning of line and select all text along the way |
+| `⇧ + ↘ End`<br> (`⇧ + fn + →`) | move cursor to end of line and select all text along the way |
 | `⇞ Page Up`<br> (`fn + ↑`) | page up |
 | `⇟ Page Down`<br> (`fn + ↓`) | page down |
 
