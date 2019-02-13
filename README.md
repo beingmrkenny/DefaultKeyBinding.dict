@@ -1,39 +1,32 @@
 # DefaultKeyBinding.dict
 
-Default keybindings fix for Mac OS X
+## Key Bindings
 
-## Features
+* Makes typing curly quotes more gooder
+* Changes cursor malarkey
 
-* Adds multiple sign shortkey:
-	* `control - shift - 8`  = `×`
-* Adds deographic space shortkey:
-	* `control - shift - space`  = `　`
-* Modifies curly quotes shortkeys:
-	* `control - [` = `“`
-	* `control - ]` = `”`
-	* `control - {` = `‘`
-	* `control - }` = `’`
-* Adds Chinese quotation marks shortkeys:
-	* `option - [` = `「`
-	* `option - ]` = `」`
-	* `option - {` = `『`
-	* `option - }` = `』`
+| Key Sequence | Character / Action |
+|--------------|---------------|
+| `⌥ + [` | ‘ |
+| `⌥ + ]` | ’ |
+| `⇧ + ⌥ + [` | “ |
+| `⇧ + ⌥ + ]` | ” |
+| `↖ Home`<br> (`fn + ←`)  | moveToBeginningOfLine |
+| `↘ End`<br>  (`fn + →`) | moveToEndOfLine |
+| `⇧ + ↖ Home`<br> (`⇧ + fn + ←`) | moveToBeginningOfLineAndModifySelection |
+| `⇧ + ↘ End`<br> (`⇧ + fn + →`) | moveToEndOfLineAndModifySelection |
+| `⇞ Page Up`<br> (`fn + ↑`) | page up |
+| `⇟ Page Down`<br> (`fn + ↓`) | page down |
+
+## Microsoft Designer Keyboard bundle
+
+Also a keyboard bundle to make the characters printed on the keycaps match up with what comes out when you press them. (Apart from the ¬ character and the ¦ character, because I couldn’t get them to work and who cares anyway, nobody uses them).
 
 ## Installation
 
-Don’t symlink this file to `Keybindings` folder, it [doens’t work](http://apple.stackexchange.com/questions/53066/textedit-key-bindings-in-lion).
+Move the .dict file so that it ends up at `~/Library/KeyBindings/DefaultKeyBinding.dict`
 
-### Method #1
-
-```bash
-$ git clone git://github.com/sparanoid/DefaultKeyBinding.dict.git ~/my-git-repos/DefaultKeyBinding.dict
-$ cp ~/my-git-repos/DefaultKeyBinding.dict/DefaultKeyBinding.dict ~/Library/Keybindings/DefaultKeyBinding.dict
-```
-
-### Method #2
-Download it and put DefaultKeyBinding file in:
-
-	~/Library/KeyBindings/
+Copy the .bundle **directory** so that it ends up at `~/Library/Keyboard\ Layouts/MSDesignerKeyboard.bundle`
 
 ## Syntax
 
@@ -49,17 +42,17 @@ Download it and put DefaultKeyBinding file in:
 More information about keybinding syntax:
 http://xahlee.info/kbd/osx_keybinding_key_syntax.html
 
-
 Not familiar with coding or need more complex keybinding modifications? Try this:
 http://scripts.sil.org/ukelele
 
-## Known Issues
+## Authors
 
-* Ideographic space fix doens’t work when Google Chrome is running. (Tested on Mac OS X 10.8.3)
-
-## Author
-
-**Tunghsiao Liu**
+**Tunghsiao Liu (original author)**
 
 + http://twitter.com/tunghsiao
 + http://github.com/sparanoid
+
+**Mark Kenny**
+
++ https://beingmrkenny.co.uk/
++ http://github.com/beingmrkenny

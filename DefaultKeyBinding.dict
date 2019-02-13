@@ -1,24 +1,12 @@
-/*
-  Default keybindings fix for Mac OS X
-  by Tunghsiao Liu t@sparanoid.com
-*/
-
 {
-  // Multiple sign fix
-  "^*" = ("insertText:", "×");
-
-  // Ideographic space fix
-  "^$\U0020" = ("insertText:", "　");
-
-  // Curly quotes fix
-  "^[" = ("insertText:", "“");
-  "^]" = ("insertText:", "”");
-  "^{" = ("insertText:", "‘");
-  "^}" = ("insertText:", "’");
-
-  // Chinese quotation marks fix
-  "~[" = ("insertText:", "「");
-  "~]" = ("insertText:", "」");
-  "~{" = ("insertText:", "『");
-  "~}" = ("insertText:", "』");
+	"~[" = ("insertText:", "‘");
+	"~]" = ("insertText:", "’");
+	"~{" = ("insertText:", "“");
+	"~}" = ("insertText:", "”");
+	"\UF729"  = "moveToBeginningOfLine:";
+	"$\UF729" = "moveToBeginningOfLineAndModifySelection:";
+	"\UF72B"  = "moveToEndOfLine:";
+	"$\UF72B" = "moveToEndOfLineAndModifySelection:";
+	"\UF72C"  = "pageUp:";
+	"\UF72D"  = "pageDown:";
 }
